@@ -1,4 +1,4 @@
-package com.bank.clientservice.modules.service;
+package com.bank.clientservice.modules.resource;
 
 import com.bank.clientservice.TestUtils;
 import com.bank.clientservice.modules.ClientTestHelper;

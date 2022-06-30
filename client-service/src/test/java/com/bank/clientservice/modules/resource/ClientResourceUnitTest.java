@@ -1,10 +1,11 @@
-package com.bank.clientservice.modules.service;
+package com.bank.clientservice.modules.resource;
 
 import com.bank.clientservice.TestUtils;
 import com.bank.clientservice.modules.ClientTestHelper;
 import com.bank.clientservice.modules.dto.ClientRequestDTO;
 import com.bank.clientservice.modules.entity.Client;
 import com.bank.clientservice.modules.resource.ClientResource;
+import com.bank.clientservice.modules.service.ClientService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
