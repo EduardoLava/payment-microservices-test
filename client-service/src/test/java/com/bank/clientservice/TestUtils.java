@@ -1,7 +1,10 @@
 package com.bank.clientservice;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.modelmapper.ModelMapper;
+
+import java.lang.reflect.Type;
 
 public class TestUtils {
 
@@ -22,4 +25,7 @@ public class TestUtils {
         return modelMapper;
     }
 
+    public static byte[] serializeAsBytes(Object object) throws JsonProcessingException {
+        return objectMapper().writeValueAsBytes(object);
+    }
 }
